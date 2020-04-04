@@ -26,7 +26,7 @@ print(x)''' #output: 3
 tuple2= (1,5,6,4,8) #converting tuple to list
 x=list(tuple2)
 print(x) #output:[1, 5, 6, 4, 8]
-x[2]=45
+x[2][5][3]=45,67,56
 print(x) #[1, 5, 45, 4, 8]
 tuple3=tuple(x) #converting list back to tuple
 print(tuple3)
